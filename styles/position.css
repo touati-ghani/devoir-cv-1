@@ -1,0 +1,75 @@
+/*=====================================================
+============commande génerale de la page===============
+======================================================*/
+body{
+    box-sizing: border-box;
+    max-width: 1160px;
+    margin: auto;
+}
+/*=====================================================
+=================partie header=========================
+======================================================*/
+.header{
+   /*width: 1000px;*/
+   position: relative;
+   height: 200px;
+   margin: auto;
+   top: 18px;
+}
+.icones{
+ display: flex;
+ flex-wrap: wrap;
+ width: 250px;
+ position: absolute;
+ bottom: 30px;
+  right: 205px;
+
+}
+.icones-ef{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.icones img{
+height: 30px;
+width: 30px;
+}
+
+    
+}
+.titres{
+    position: relative;
+}
+.titres h1{
+  position: absolute;
+  top: 0px;
+  right: 260px;
+}
+.titres h2{
+    position: absolute;
+    top: 40px;
+    right: 160px;
+}
+.photo-cv{
+  position: absolute;
+  top: 35px;
+  left: 60px
+}
+.photo-cv img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid white;
+}
+/*=====================================================
+============main main main main main main==============
+======================================================*/
+/***************** competences ***********************/
+.competence{
+    max-width: 30%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}

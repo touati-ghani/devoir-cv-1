@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@font-face {
+    font-family: "raleway";
+    src: url(../font/Raleway-Italic-VariableFont_wght.woff);
+    src: url(../font/Raleway-Italic-VariableFont_wght.ttf) format('truetype'),
+    url(../font/Raleway-Italic-VariableFont_wght.otf) format('opentype');
+}
+h1{
+    font-family: lato;
+    text-transform:capitalize;
+}
+h2{
+    font-family: lato;
+    text-transform:capitalize;
+}
+.header{
+     background-color: #17abb3;
+}
+.icones-ef a{
+    display: flex;
+    text-decoration:none;
+    align-items: center;
+    color: white;
+    font-family: "raleway";
+    gap: 15px;
+    
+}
+/********************** compétences  *******************/
+.competence{
+    background-color: #e3e3e3;
+}
