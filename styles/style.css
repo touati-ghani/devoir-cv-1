@@ -29,3 +29,11 @@ h2{
 .competence{
     background-color: #e3e3e3;
 }
+.etoiles{
+color: #17abb3;
+}
+h3{
+    font-family: lato;
+    text-transform: capitalize;
+    color: #17abb3;
+}

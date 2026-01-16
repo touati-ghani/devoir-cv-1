@@ -11,7 +11,7 @@ body{
 ======================================================*/
 .header{
    /*width: 1000px;*/
-   position: relative;
+   position:relative;
    height: 200px;
    margin: auto;
    top: 18px;
@@ -33,9 +33,6 @@ body{
 .icones img{
 height: 30px;
 width: 30px;
-}
-
-    
 }
 .titres{
     position: relative;
@@ -72,4 +69,46 @@ width: 30px;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
+}
+.comp li{
+  display: flex;                 
+  justify-content: space-between;
+  align-items: center;
+}
+.comp h3{
+  padding-left: 30px;
+  padding-top: 30px;
+  margin-bottom: 8.72px;
+}
+.comp ul{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.comp hr{
+    max-width: 82%;
+    color: #e3e3e3;
+}
+.parcours{
+  max-width: 812px;
+  position: absolute;
+  top: 218px;
+  right: 188px;
+  background-color: aquamarine;
+}
+.profil p{
+    text-align:justify;
+    max-width: 82%;
+    text-indent: 40px;
+    padding-left: 77px;
+    padding-right: 77px;
+   
+}
+.profil hr{
+    max-width: 82%;
+}
+.profil h3{
+    margin-top: 21.72px;
+    padding-left: 71px;
+    padding-top: 11px;
+    margin-bottom: 8.72px;
 }
