@@ -15,6 +15,7 @@ h2{
 }
 .header{
      background-color: #17abb3;
+     font-family: "raleway";
 }
 .icones-ef a{
     display: flex;
@@ -28,6 +29,7 @@ h2{
 /********************** compétences  *******************/
 .competence{
     background-color: #e3e3e3;
+    font-family: "raleway";
 }
 .etoiles{
 color: #17abb3;
@@ -48,4 +50,29 @@ h3{
 }
 .centre ul li::marker{
     color: #17abb3;
+}
+.parcours{
+    background-color: #f5f5f5;
+}
+.form-e .right{
+    color: #17abb3;
+}
+p{
+    font-family: "raleway";
+}
+.form{
+    font-family: "raleway";
+}
+.form .form-e:hover{
+    background-color: #e3e3e3; /* couleur de fond au survol */
+  border-left: 4px solid #17abb3; /* même couleur que tes titres */
+  cursor: pointer;
+}
+.photo-cv{
+     transform: scale(1.05);
+  cursor: zoom-in;
+}
+.footer-img a:hover{
+ opacity: 0.7;
+  cursor: pointer;
 }
