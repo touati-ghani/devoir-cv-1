@@ -37,3 +37,15 @@ h3{
     text-transform: capitalize;
     color: #17abb3;
 }
+.qualités ul{
+    list-style: square ;
+}
+.qualités ul li::marker{
+    color: #17abb3;
+}
+.centre ul{
+    list-style: square;
+}
+.centre ul li::marker{
+    color: #17abb3;
+}
